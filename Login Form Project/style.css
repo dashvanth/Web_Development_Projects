@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ .container{
+    width: 100%;
+    display: flex;
+ }
+ .container .div-form{
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .container .div-form h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+ }
+ .container .div-form form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+ }
+ form  .inp{
+    width: 60%;
+    margin: auto;
+    height: 60px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    box-shadow: 20px 20px 20px #8e1df720,-10px -10px 20px #8e1df720;
+    position: relative;
+     
+ }
+ form .inp input{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    padding: 20px 70px;
+    font-size: 18px;
+    
+ }
+ form .inp i{
+    position: absolute;
+    color: #8e1df7;
+    font-size: 30px;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    text-shadow:0px 0px 10px #aa8ac8;
+
+ }
+ form .inp .eyes{
+    left: 90%;
+    font-size: 16px;
+    cursor: pointer; 
+
+ }
+ form .check{
+    width: 60%;
+    margin: 0 auto 40px;
+    display: flex;
+align-items: center;
+ }
+form .check input{
+    margin: 0 5px 0 20px;
+}
+form .check span{
+    margin-top: 3px;
+    color: #555555;
+    font-size: 13px;
+}
+form .btn{
+    color: #fff;
+    font-size: 20px;
+    width: 250px;
+    margin: auto;
+    background: linear-gradient(170deg,#8e1df7,#190253);
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px #aa8ac8;
+}
+form .btn:hover{
+    color: #ffffff;
+    background:#7660af;
+}
+form .spn-regs{
+    text-align: center;
+    font-size: 14px;
+}
+form .spn-regs a{
+    color: #8e1df7;
+    text-decoration: none;
+}
+form .spn-regs:hover a{
+    text-decoration: underline;
+}
+
+.container .div-text{
+    height: 100vh;
+    width: 40%;
+    background: linear-gradient(170deg,#8e1df7,#190253);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    text-align: center;
+
+ }
+ .container .div-text h1{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-shadow:0px 0px 5px #d1a0ff;
+
+ }
+ .container .div-text p{
+    margin: 0 auto;
+    width: 70%;
+    color: #fff;
+    font-size: 14px;
+    line-height: 2;
+    text-shadow:0px 0px 5px #d1a0ff;
+ }
