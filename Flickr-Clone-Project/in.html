@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <!-- Montserrat Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icon CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .background-image {
+        background: url(./Images/Image5.png);
+        width: 100%;
+        overflow: hidden;
+      }
+    </style>
+    <!-- Link CSS  -->
+    <link rel="stylesheet" href="main.css" />
+    <title>Find your inspiration, | Flickr</title>
+  </head>
+  <body>
+    <div class="lg:overflow-hidden">
+      <!-- wrapper -->
+      <div class="m-0 p-0 box-border">
+        <!-- Container to hold the width & height -->
+        <div
+          class="background-image bg-cover bg-no-repeat scale-x-[1.01] w-full scale-[1.01] overflow-x-hidden"
+        >
+          <!-- Navigation Basr -->
+          <nav
+            class="justify-center items-center z-10 relative flex lg:flex-row lg:justify-between flex-col lg:gap-2 lg:items-center bg-black bg-opacity-20 py-5 lg:px-7 lg:py-[1rem] px-2"
+          >
+            <!-- logo -->
+            <div class="cursor-pointer flex flex-row items-center gap-1">
+              <img src="./images/logo.svg" width="22px" alt="Flickr Logo" />
+              <p
+                class="lg:m-auto -mt-1 text-xl lg:font-semibold font-bold text-white font-sans lg:text-3xl"
+              >
+                Flickr
+              </p>
+            </div>
+
+            <!-- Search Form  -->
+            <div
+              class="lg:flex flex-col lg:m-0 mt-2 mb-2 mx-auto flex-grow-[0.76] w-[13rem]"
+            >
+              <form>
+                <label
+                  for="search"
+                  class="mb-2 text-sm font-medium sr-only dark:text-black"
+                  >Search</label
+                >
+                <div class="relative opacity-80">
+                  <div
+                    class="absolute lg:top-2 lg:bottom-1 -bottom-[0.850rem] left-40 lg:text-gray-500 text-white lg:left-0 lg:items-center pl-3 hidden"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="w-5 h-5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="3"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <input
+                    type="search"
+                    id="search"
+                    class="hidden lg:block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-[3px] bg-gray-50 dark:bg-gray-200 dark:border-none dark:placeholderbg-slate-900"
+                    placeholder="Photos, people, or groups"
+                    required
+                  />
+                </div>
+              </form>
+            </div>
+
+            <!-- Login and Sign up  -->
+            <div
+              class="flex lg:flex-row flex-col justify-center lg:items-center gap-2 lg:gap-6"
+            >
+              <!-- Login  -->
+              <button
+                class="hover:text-black transition ease-in-out duration-200 font-semibold text-white bg-black bg-opacity-20 lg:bg-none lg:bg-opacity-0 lg:py-0 lg:px-0 lg:border-0 border-2 py-1 px-2 relative left-1.5"
+              >
+                Log in
+              </button>
+              <!-- Sign Up  -->
+              <button
+                class="w-[6rem] mx-auto text-center bg-white py-1 px-4 rounded font-semibold hover:text-gray-400 transition ease-in-out duration-200 hidden lg:block"
+              >
+                Sign Up
+              </button>
+            </div>
+          </nav>
+
+          <!-- Hero Section  -->
+
+          <!-- Hero Section Container  -->
+          <div
+            class="text-center text-white font-sans flex flex-col items-center justify-center min-h-screen gap-5 lg:gap-10 relative -mt-52 lg:-mt-32 lg:top-0"
+          >
+            <!-- Heading  -->
+            <div>
+              <h1 class="text-5xl lg:text-5xl font-semibold lg:font-semi-bold">
+                Find your inspiration.
+              </h1>
+            </div>
+            <!-- Paragraph -->
+            <div>
+              <p class="hidden lg:block text-2xl font-semibold lg:max-w-2xl">
+                Join the Flickr community, home to tens of billions of
+                <br />photos and 2 million groups.
+              </p>
+            </div>
+
+            <!-- Start for free/registration button  -->
+            <div>
+              <button
+                class="rounded lg:text-2xl bg-white text-black font-bold py-3 px-3.5 lg:py-3 lg:px-5 hover:text-gray-400 transition ease-in-out duration-200"
+              >
+                Start for free
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- footer section  -->
+
+        <div
+          class="absolute -bottom-2 lg:bottom-0 scale-[1.01] z-10 w-full text-[.87rem] bg-black py-[19.5px] px-11 text-neutral-400"
+        >
+          <!-- Footer Naviation Bar -->
+          <nav>
+            <ul
+              class="flex lg:flex-row flex-col items-start lg:items-center justify-between"
+            >
+              <a href="#"><li class="hover:text-neutral-200">About</li></a>
+              <div class="lg:hidden w-full py-[5px] border-b opacity-40"></div>
+              <a href="#"><li class="hover:text-neutral-100">Jobs</li></a>
+              <div class="lg:hidden w-full py-[5px] border-b opacity-40"></div>
+              <a href="#"><li class="hover:text-neutral-100">Blog</li></a>
+              <div class="lg:hidden w-full py-[5px] border-b opacity-40"></div>
+              <a href="#"><li class="hover:text-neutral-100">Developers</li></a>
+              <div class="lg:hidden w-full py-[5px] border-b opacity-40"></div>
+              <a href="#"><li class="hover:text-neutral-100">Guidelines</li></a>
+              <div class="lg:hidden w-full py-[5px] border-b opacity-40"></div>
+              <a href="#"
+                ><li class="hover:text-neutral-100 lg:block hidden">Help</li></a
+              >
+              <a href="#"
+                ><li class="hover:text-neutral-100 lg:block hidden">
+                  Help forum
+                </li></a
+              >
+              <a href="#"><li class="hover:text-neutral-100">Privacy</li></a>
+              <div class="lg:hidden w-full py-[5px] border-b opacity-40"></div>
+              <a href="#"
+                ><li class="hover:text-neutral-100 lg:block hidden">
+                  Terms
+                </li></a
+              >
+              <a href="#"
+                ><li class="hover:text-neutral-100 lg:block hidden">
+                  Cookies
+                </li></a
+              >
+              <a href="#"
+                ><li class="hover:text-neutral-100 lg:block hidden">
+                  English ^
+                </li></a
+              >
+              <a href="#"
+                ><li class="hover:text-neutral-100 lg:block hidden">
+                  SmugMug+Flickr
+                </li></a
+              >
+
+              <!-- Social Media Icons  -->
+              <div class="flex gap-7 items-center justify-center">
+                <a href="#"
+                  ><li class="hover:text-neutral-100 lg:block hidden">
+                    <i class="fa-brands fa-square-facebook text-2xl"></i></li
+                ></a>
+                <a href="#"
+                  ><li class="hover:text-neutral-100 lg:block hidden">
+                    <i class="fa-brands fa-twitter text-2xl"></i></li
+                ></a>
+                <a href="#"
+                  ><li class="hover:text-neutral-100 lg:block hidden">
+                    <i class="fa-brands fa-instagram text-2xl"></i></li
+                ></a>
+              </div>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- wrapper div  -->
+      </div>
+    </div>
+  </body>
+</html>
