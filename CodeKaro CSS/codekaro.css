@@ -1,0 +1,30 @@
+.login-container{
+    width: 500px;
+    padding: 20px 30px;
+    margin: 50px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+input{
+    padding: 10px 16px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.btn{
+    background-color: black;
+    padding: 10px 30px;
+    border: 1px solid black;
+    color: white;
+    font-size: 16px;
+    border-radius: 24px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    /* border: 1px solid black; */
+}
+
+    
